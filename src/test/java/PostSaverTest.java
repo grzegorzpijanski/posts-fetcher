@@ -14,16 +14,16 @@ import java.util.Objects;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class PostsSaverTest {
+public class PostSaverTest {
 
     private static final String TEST_FILES_DIRECTORY = "posts_test";
 
-    private PostsSaver postsSaver;
+    private PostSaver postSaver;
     private File tempFile;
 
     @Before
     public void before() {
-        postsSaver = new PostsSaver();
+        postSaver = new PostSaver();
         tempFile = new File(TEST_FILES_DIRECTORY);
     }
 
@@ -41,7 +41,7 @@ public class PostsSaverTest {
         final var posts = PostsProvider.providePosts();
 
         // when
-        postsSaver.saveAsJsonFiles(TEST_FILES_DIRECTORY, posts);
+        postSaver.saveAsJsonFiles(TEST_FILES_DIRECTORY, posts);
 
         // then
         assertEquals(posts.size(), Objects.requireNonNull(tempFile.listFiles()).length);
@@ -65,8 +65,8 @@ public class PostsSaverTest {
         final var newPosts = Collections.singletonList(newPost);
 
         // when
-        postsSaver.saveAsJsonFiles(TEST_FILES_DIRECTORY, posts);
-        postsSaver.saveAsJsonFiles(TEST_FILES_DIRECTORY, newPosts);
+        postSaver.saveAsJsonFiles(TEST_FILES_DIRECTORY, posts);
+        postSaver.saveAsJsonFiles(TEST_FILES_DIRECTORY, newPosts);
 
         // then
         assertEquals(newPosts.size(), Objects.requireNonNull(tempFile.listFiles()).length);

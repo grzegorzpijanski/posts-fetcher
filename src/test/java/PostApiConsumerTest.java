@@ -1,5 +1,3 @@
-import com.google.gson.JsonArray;
-import com.google.gson.JsonParser;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,6 +8,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.List;
 import java.util.Optional;
 
 import static org.mockito.ArgumentMatchers.any;
@@ -17,20 +16,20 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class ApiConsumerTest {
+public class PostApiConsumerTest {
 
     private static final String POSTS_URL = "https://jsonplaceholder.typicode.com/posts";
 
     final HttpClient httpClient = mock(HttpClient.class);
-    ApiConsumer apiConsumer;
+    PostApiConsumer postApiConsumer;
 
     @Before
     public void before() {
-        apiConsumer = new ApiConsumer(httpClient);
+        postApiConsumer = new PostApiConsumer(httpClient);
     }
 
     @Test
-    public void shouldReturnExpectedJson() throws IOException, InterruptedException {
+    public void shouldReturnExpectedPosts() throws IOException, InterruptedException {
         // given
         final HttpRequest httpRequest = HttpRequest.newBuilder()
                 .GET()
@@ -39,6 +38,8 @@ public class ApiConsumerTest {
                 .build();
 
         final var responseStatusCode = 200;
+
+        final List<Post> expectedPosts = PostsProvider.providePosts();
         final var responseBody =  String.format("[%s,%s,%s]", PostsProvider.FIRST_POST_TEXT,
                 PostsProvider.SECOND_POST_TEXT, PostsProvider.THIRD_POST_TEXT);
 
@@ -46,13 +47,11 @@ public class ApiConsumerTest {
 
         // when
         when(httpClient.send(eq(httpRequest), any(HttpResponse.BodyHandler.class))).thenReturn(response);
-        final Optional<JsonArray> result = apiConsumer.fetch();
+        final Optional<List<Post>> result = postApiConsumer.fetch();
 
         // then
         assert(result.isPresent());
-        assert(result.get().contains(JsonParser.parseString(PostsProvider.FIRST_POST_TEXT)));
-        assert(result.get().contains(JsonParser.parseString(PostsProvider.SECOND_POST_TEXT)));
-        assert(result.get().contains(JsonParser.parseString(PostsProvider.THIRD_POST_TEXT)));
+        assert(result.get().containsAll(expectedPosts));
     }
 
     @Test
@@ -69,7 +68,7 @@ public class ApiConsumerTest {
 
         // when
         when(httpClient.send(eq(httpRequest), any(HttpResponse.BodyHandler.class))).thenReturn(response);
-        final Optional<JsonArray> result = apiConsumer.fetch();
+        final Optional<List<Post>> result = postApiConsumer.fetch();
 
         // then
         assert(result.isEmpty());
@@ -88,7 +87,7 @@ public class ApiConsumerTest {
 
         // when
         when(httpClient.send(eq(httpRequest), any(HttpResponse.BodyHandler.class))).thenThrow(exception);
-        final Optional<JsonArray> result = apiConsumer.fetch();
+        final Optional<List<Post>> result = postApiConsumer.fetch();
 
         // then
         assert(result.isEmpty());

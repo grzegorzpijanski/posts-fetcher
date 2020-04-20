@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e3e8f1-70d4-4612-989a-7d9b595f6633" name="Default Changelist" comment="" />
+    <list default="true" id="98e3e8f1-70d4-4612-989a-7d9b595f6633" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/PostsFetcher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PostMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PostApiConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PostsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PostsSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PostSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostApiConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PostsMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PostsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PostsSaverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostSaverTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,21 +144,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Z75iS72U0dAXnupdfoww5EQ8NC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -119,37 +174,24 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Tests in 'PostsFetcher.test'">
-    <configuration name="PostsFetcher [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PostsFetcher.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="PostsSaverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApiConsumerTest.shouldReturnExpectedPosts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PostsSaverTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ApiConsumerTest.shouldReturnExpectedPosts&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
             <option value=":test" />
           </list>
         </option>
@@ -221,10 +263,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Tests in 'PostsFetcher.test'" />
+        <item itemvalue="Gradle.ApiConsumerTest.shouldReturnExpectedPosts" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.PostsSaverTest.shouldCleanDirectoryAndSaveNewFile" />
         <item itemvalue="Gradle.PostsSaverTest.shouldOverrideAlreadyExistingFile" />
-        <item itemvalue="Gradle.PostsFetcher [run]" />
-        <item itemvalue="Gradle.PostsSaverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,70 +282,118 @@
       <updated>1584177418364</updated>
       <workItem from="1584177421729" duration="26526000" />
       <workItem from="1584273089307" duration="6299000" />
-      <workItem from="1584298597981" duration="10411000" />
+      <workItem from="1584298597981" duration="11692000" />
+      <workItem from="1584615186979" duration="1315000" />
+      <workItem from="1585217766902" duration="1035000" />
+      <workItem from="1585915732737" duration="627000" />
+      <workItem from="1586345629954" duration="23000" />
     </task>
+    <task id="LOCAL-00001" summary="Make some improvements">
+      <created>1587390492656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587390492656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Make some improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make some improvements" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="443" y="117" width="1024" height="855" key="#Project_Structure" timestamp="1586867307754">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="443" y="117" width="1024" height="855" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1586867307754" />
     <state x="100" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584350219504">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="100" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584350219504" />
-    <state x="768" y="252" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1584191351728">
+    <state x="768" y="252" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1586866549954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="768" y="252" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584191351728" />
-    <state x="570" y="0" width="769" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584351050600">
+    <state x="768" y="252" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586866549954" />
+    <state x="570" y="0" width="769" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587390134329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="570" y="0" width="769" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584351050600" />
+    <state x="570" y="0" width="769" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587390134329" />
     <state x="745" y="447" key="#xdebugger.evaluate" timestamp="1584276665889">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="447" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1584276665889" />
-    <state width="1874" height="297" key="GridCell.Tab.0.bottom" timestamp="1584351542580">
+    <state x="571" y="127" width="767" height="836" key="CommitChangelistDialog2" timestamp="1587390492446">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584351542580" />
-    <state width="1874" height="297" key="GridCell.Tab.0.center" timestamp="1584351542578">
+    <state x="571" y="127" width="767" height="836" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587390492446" />
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1587390392677">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="297" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584351542578" />
-    <state width="1874" height="297" key="GridCell.Tab.0.left" timestamp="1584351542577">
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587390392677" />
+    <state width="1874" height="371" key="GridCell.Tab.0.bottom" timestamp="1587390526947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="297" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584351542577" />
-    <state width="1874" height="297" key="GridCell.Tab.0.right" timestamp="1584351542579">
+    <state width="1874" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587390526947" />
+    <state width="1874" height="371" key="GridCell.Tab.0.center" timestamp="1587390526945">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="297" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584351542579" />
-    <state width="1874" height="383" key="GridCell.Tab.1.bottom" timestamp="1584350200225">
+    <state width="1874" height="371" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587390526945" />
+    <state width="1874" height="371" key="GridCell.Tab.0.left" timestamp="1587390526943">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584350200225" />
-    <state width="1874" height="383" key="GridCell.Tab.1.center" timestamp="1584350200225">
+    <state width="1874" height="371" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587390526943" />
+    <state width="1874" height="371" key="GridCell.Tab.0.right" timestamp="1587390526946">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584350200225" />
-    <state width="1874" height="383" key="GridCell.Tab.1.left" timestamp="1584350200225">
+    <state width="1874" height="371" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587390526946" />
+    <state width="1874" height="368" key="GridCell.Tab.1.bottom" timestamp="1586870791537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584350200225" />
-    <state width="1874" height="383" key="GridCell.Tab.1.right" timestamp="1584350200225">
+    <state width="1874" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586870791537" />
+    <state width="1874" height="368" key="GridCell.Tab.1.center" timestamp="1586870791537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584350200225" />
+    <state width="1874" height="368" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586870791537" />
+    <state width="1874" height="368" key="GridCell.Tab.1.left" timestamp="1586870791537">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="368" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586870791537" />
+    <state width="1874" height="368" key="GridCell.Tab.1.right" timestamp="1586870791537">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="368" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586870791537" />
+    <state x="719" y="249" width="461" height="602" key="RollbackChangesDialog" timestamp="1585218797300">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="719" y="249" width="461" height="602" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585218797300" />
     <state x="443" y="117" width="1024" height="855" key="SettingsEditor" timestamp="1584178396496">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="443" y="117" width="1024" height="855" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1584178396496" />
-    <state x="653" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1584298599018">
+    <state x="555" y="276" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1587390494731">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584298599018" />
+    <state x="555" y="276" width="800" height="538" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587390494731" />
+    <state x="653" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1586345629964">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="653" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586345629964" />
     <state x="624" y="244" key="run.anything.popup" timestamp="1584198975778">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -317,9 +407,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ApiConsumer.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/test/java/PostApiConsumerTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

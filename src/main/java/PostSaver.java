@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Optional;
 
-public final class PostsSaver {
+public final class PostSaver {
 
     private static final String FILE_PATH = "/%s.json";
 
@@ -39,6 +39,7 @@ public final class PostsSaver {
 
     private void writeFile(final String directory, final String title, final String content) {
         final var pathToFile = Paths.get(directory + String.format(FILE_PATH, title));
+
         try {
             Files.createDirectories(pathToFile.getParent());
             Files.writeString(pathToFile, content, StandardCharsets.UTF_8);
